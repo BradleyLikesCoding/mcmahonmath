@@ -1,0 +1,29 @@
+ /*
+Color theme:
+rgb(186, 71, 92)
+rgb(59, 59, 59)
+rgb(217, 65, 65)
+*/
+
+@media only screen and (min-width: 600px) {
+  #nav-bar {
+    position: fixed;
+  }
+}
+
+.m-show {
+  display: auto;
+}
+
+.m-hide {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .m-show {
+    display: none;
+  }
+  .m-hide {
+    display: auto;
+  }
+}
